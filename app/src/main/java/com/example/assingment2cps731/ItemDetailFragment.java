@@ -63,9 +63,17 @@ public class ItemDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
 
         // Show the dummy content as text in a TextView.
-        if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.details);
+        if (mItem.id.equals("Recipe 1")) {
+            rootView = inflater.inflate(R.layout.recipe1, container, false);
+            ((TextView) rootView.findViewById(R.id.recipe1)).setText(mItem.details);
         }
+        if (mItem.id.equals("Recipe 2")) {
+            rootView = inflater.inflate(R.layout.recipe2, container, false);
+            ((TextView) rootView.findViewById(R.id.recipe2)).setText(mItem.details);
+        }
+
+
+
 
         return rootView;
     }
