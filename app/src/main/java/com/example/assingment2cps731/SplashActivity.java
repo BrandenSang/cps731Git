@@ -23,12 +23,12 @@ public class SplashActivity extends AppCompatActivity {
 
             mySong = new MediaPlayer();
             mySong = MediaPlayer.create(this, R.raw.splashintro);
-
+            mySong.start();
 
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                mySong.start();
+
 
                 Intent mainIntent = new Intent(SplashActivity.this,ItemListActivity.class);
                 SplashActivity.this.startActivity(mainIntent);
