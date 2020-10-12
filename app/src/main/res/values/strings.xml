@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Recycler View Adaptation</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="title_splash">Recycler Splash</string>
     <string name= "jeff">jeff</string>
 </resources>
