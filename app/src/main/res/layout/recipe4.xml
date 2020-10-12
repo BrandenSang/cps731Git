@@ -4,20 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" tools:context=".ItemDetailFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView1"
+        android:src="@drawable/recipe4"
+        />
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/recipe4"
         style="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:padding="16dp"
         android:textIsSelectable="true"
         />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageView1"
-        android:src="@drawable/recipe4"
-        />
+
 </LinearLayout>
