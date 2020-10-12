@@ -71,6 +71,18 @@ public class ItemDetailFragment extends Fragment {
             rootView = inflater.inflate(R.layout.recipe2, container, false);
             ((TextView) rootView.findViewById(R.id.recipe2)).setText(mItem.details);
         }
+        if (mItem.id.equals("Recipe 3")) {
+            rootView = inflater.inflate(R.layout.recipe3, container, false);
+            ((TextView) rootView.findViewById(R.id.recipe3)).setText(mItem.details);
+        }
+        if (mItem.id.equals("Recipe 4")) {
+            rootView = inflater.inflate(R.layout.recipe4, container, false);
+            ((TextView) rootView.findViewById(R.id.recipe4)).setText(mItem.details);
+        }
+        if (mItem.id.equals("Recipe 5")) {
+            rootView = inflater.inflate(R.layout.recipe5, container, false);
+            ((TextView) rootView.findViewById(R.id.recipe5)).setText(mItem.details);
+        }
 
 
 
